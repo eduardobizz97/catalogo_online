@@ -1,0 +1,278 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  bottom: 0;
+  font-family: "Manrope", sans-serif;
+}
+body {
+}
+
+/* Vivi xd */
+#titulo {
+  font-weight: bold;
+  color: #8a2be2;
+}
+
+#boton1 {
+  width: 150px;
+  border-radius: 10px;
+  font-weight: bold;
+  background-color: #f1e4ff;
+  color: #8a2be2;
+  border: 0px solid;
+}
+
+#boton2 {
+  border: 2px solid #8a2be2;
+  font-weight: bold;
+  font-weight: bold;
+  border-radius: 10px;
+  background-color: #8a2be2;
+}
+
+#textonav {
+  font-weight: bold;
+}
+
+/* Vivi xd */
+
+.title-container h1 {
+  color: #8a2be2;
+  margin-left: 165px;
+}
+
+.main-container {
+  border-radius: 50px 50px 0px 0px;
+  background-color: #8a2be2;
+  padding: 100px 90px 10px 90px;
+}
+
+.search-bar {
+  margin: auto;
+  width: 50%;
+  height: 126px;
+  border-radius: 20px 20px 20px 20px;
+  background-color: white;
+  padding: 30px 10px;
+}
+
+.search-bar form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-bar form * {
+  font-size: 2vh;
+  height: 100%;
+  margin-right: 5px;
+  border-radius: 15px;
+}
+
+.search-bar #busqueda {
+  
+  width: 50%;
+  padding: 10px;
+  background-color: #f2f4f8;
+}
+
+.search-bar #categorias {
+  overflow: scroll;
+  width: 25%;
+  border: 1px solid #f2f4f8;
+  background-color: white;
+}
+
+.search-bar #buscar {
+  width: 25%;
+  color: white;
+  font-weight: bold;
+  background-color: #8a2be2;
+}
+
+.products-container {
+  margin: auto;
+  width: 80%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.products-container * {
+  width: 40%;
+}
+
+.item-container * {
+  width: 100%;
+}
+
+.item-container {
+  padding: 10px;
+  margin-top: 10px;
+  margin-right: 50px;
+  color: white;
+  border: 1px solid 8a2be2;
+  border-radius: 10px;
+  -webkit-box-shadow: -10px 15px 38px -18px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -10px 15px 38px -18px rgba(0, 0, 0, 0.75);
+  box-shadow: -10px 15px 38px -18px rgba(0, 0, 0, 0.75);
+}
+
+.item-container h4{
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.item-container img {
+  border-radius: 10px;
+}
+
+.item-footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.item-container button {
+  padding: 12px;
+  display: flex;
+  border-radius: 20px;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.item-container button:hover {
+  background-color: white;
+}
+
+.item-container button > a {
+  font-weight: bold;
+  color: #8a2be2;
+}
+
+.item-container button > a:hover {
+  text-decoration: none;
+}
+
+.pagination {
+  margin: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.pagination a {
+  color: #8a2be2;
+  width: 40px;
+  height: 40px;
+  margin-left: 2px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.footer {
+  padding: 50px 90px 20px 90px;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.footer > div {
+  width: 50%;
+}
+
+.left-footer h4 {
+  color: #8a2be2;
+}
+
+.left-footer ul {
+  padding-left: 0;
+  display: flex;
+}
+
+.left-footer ul li {
+  margin-right: 10px;
+  list-style: none;
+  display: flex;
+}
+
+.left-footer a {
+  color: white;
+}
+
+.right-footer h4 {
+  color: white;
+}
+
+.right-footer ul {
+  padding-left: 0;
+  display: flex;
+}
+
+.right-footer ul li {
+  margin-right: 10px;
+  list-style: none;
+  display: flex;
+}
+
+@media only screen and (min-width: 2000px) {
+
+  /* Resolver titulo h1 */
+  /* Permitir mas productos */
+}
+
+
+@media only screen and (max-width: 768px) {
+  .search-bar{
+    
+    width: 100%;
+  }
+  .products-container{
+    width: 100%;
+  }
+  .item-container{
+
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    width: 100%;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  .footer{
+    padding: 50px;
+    width: 100%;
+    flex-direction: column;
+    
+  }
+  .footer > div {
+    height: 100%;
+    width: 100%;
+  }
+
+  .left-footer ul{
+    display: inline-block;
+  }
+  .left-footer ul li{
+    display: inline-block;
+    text-align: left;
+  }
+  
+  /* Resolver titulo h1 */
+  /* Permitir mas productos */
+}

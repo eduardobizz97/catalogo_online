@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/catalogo-empresas.css" />
+    <title>Catalogo de empresas</title>
+  </head>
+  <body>
+    <head>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" id="titulo">Catalogo Online</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="#"
+                  id="textonav"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="#"
+                  id="textonav"
+                  >Catálogo</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="#"
+                  id="textonav"
+                  >Acerca de nosotros</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="#"
+                  id="textonav"
+                  >Contacto</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <span class="navbar-text">
+          <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+            <button class="btn btn-primary" type="button" id="boton1">
+              Iniciar Sesión</button
+            >&nbsp;&nbsp;&nbsp;
+            <button class="btn btn-primary" type="button" id="boton2">
+              Registrate
+            </button>
+          </div>
+        </span>
+      </nav>
+    </head>
+    <main>
+      <div class="title-container">
+        <h1>Catalogo de empresas</h1>
+      </div>
+      <div class="main-container">
+        <div class="search-bar">
+          <form action="buscar">
+            <input
+              type="text"
+              name="txtBusqueda"
+              id="busqueda"
+              placeholder="Nombre de la empresa"
+            />
+            <select name="cmbCategorias" id="categorias">
+              <option value="null">Categorías</option>
+            </select>
+            <input type="submit" value="Buscar" id="buscar" />
+          </form>
+        </div>
+        <div class="products-container">
+          <div class="item-container">
+            <h4>Empresa</h4>
+            <p>Descripción empresa</p>
+            <img src="https://www.eluniverso.com/resizer/FtnsE3wPvdAp7buz_920TDAvM1s=/1127x670/smart/filters:quality(70)/cloudfront-us-east-1.images.arcpublishing.com/eluniverso/KCMTEGZC6REN3IQD3Y7PANQY5E.jpg" alt="" />
+            <div class="item-footer">
+              <h5>Categoria</h5>
+              <button><a href="">Ver catálogo</a></button>
+            </div>
+          </div>
+          <div class="item-container">
+            <h4>Empresa</h4>
+            <p>Descripción empresa</p>
+            <img src="https://www.eluniverso.com/resizer/FtnsE3wPvdAp7buz_920TDAvM1s=/1127x670/smart/filters:quality(70)/cloudfront-us-east-1.images.arcpublishing.com/eluniverso/KCMTEGZC6REN3IQD3Y7PANQY5E.jpg" alt="" />
+            <div class="item-footer">
+              <h5>Categoria</h5>
+              <button><a href="">Ver catálogo</a></button>
+            </div>
+          </div>
+          <div class="item-container">
+            <h4>Empresa</h4>
+            <p>Descripción empresa</p>
+            <img src="https://www.eluniverso.com/resizer/FtnsE3wPvdAp7buz_920TDAvM1s=/1127x670/smart/filters:quality(70)/cloudfront-us-east-1.images.arcpublishing.com/eluniverso/KCMTEGZC6REN3IQD3Y7PANQY5E.jpg" alt="" />
+            <div class="item-footer">
+              <h5>Categoria</h5>
+              <button><a href="">Ver catálogo</a></button>
+            </div>
+          </div>
+          <div class="item-container">
+            <h4>Empresa</h4>
+            <p>Descripción empresa</p>
+            <img src="https://www.eluniverso.com/resizer/FtnsE3wPvdAp7buz_920TDAvM1s=/1127x670/smart/filters:quality(70)/cloudfront-us-east-1.images.arcpublishing.com/eluniverso/KCMTEGZC6REN3IQD3Y7PANQY5E.jpg" alt="" />
+            <div class="item-footer">
+              <h5>Categoria</h5>
+              <button><a href="">Ver catálogo</a></button>
+            </div>
+          </div>
+        </div>
+        <div class="pagination">
+          <a href="#">&laquo;</a>
+          <a href="#">1</a>
+          <a href="#">2</a>
+          <a href="#">3</a>
+          <a href="#">4</a>
+          <a href="#">5</a>
+          <a href="#">6</a>
+          <a href="#">&raquo;</a>
+        </div>
+      </div>
+    </main>
+    <div class="footer">
+      <div class="left-footer">
+        <h4>Catalogo online</h4>
+        <ul>
+          <li>
+            <a href="">Contactanos</a>
+          </li>
+          <li>
+            <a href="">Licencia</a>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href="">Acerca de nosotros</a>
+          </li>
+          <li>
+            <a href="">Suscribete</a>
+          </li>
+          <li>
+            <a href="">Políticas de privacidad</a>
+          </li>
+          <li>
+            <a href="">Ayuda</a>
+          </li>
+        </ul>
+        <p>
+          &copy;2020 Viviana Fajardo y Eduardo Bizzarro. Todos los derechos
+          reservados.
+        </p>
+      </div>
+      <div class="right-footer">
+        <h4>Siguenos!</h4>
+        <ul>
+          <li>
+            <a href=""><img src="" alt="" />Instagram</a>
+          </li>
+          <li>
+            <a href=""><img src="" alt="" />Youtube</a>
+          </li>
+          <li>
+            <a href=""><img src="" alt="" />Linkedin</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
